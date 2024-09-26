@@ -1,0 +1,23 @@
+{
+  "name": "hypernos-technology/laravel-blur-image-placeholder",
+  "license": "proprietary",
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "intervention/image": "^3.8",
+    "illuminate/support": "^11.0",
+    "illuminate/view": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HypernosTechnology\\LaravelBlurImagePlaceholder\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HypernosTechnology\\LaravelBlurImagePlaceholder\\LaravelBlurImagePlaceholderServiceProvider"
+      ]
+    }
+  }
+}
